@@ -39,12 +39,7 @@ int main() {
 
 //Funtion dfinitions:
 void get_team1_details(int n) {
-	int x, y; //number of batsmen and bowlers in team1
-
-	int i;
-	for(i = 0; i < n; i++) {
-
-	}
+	
 }
 void get_team2_details(int n) {
 
