@@ -39,7 +39,7 @@ int main() {
     printf("Enter number of batsmen in team 2: ");
     scanf("%d", &t2_bowl);
 	
-	system("clear");   // use system("cls"); on windows
+	system("clear");
 	
 	printf("\n\t\t\t*************** INNING - 1 ***************\n");
 	get_team1_details(t1_bat, t1_bowl);
@@ -69,7 +69,7 @@ int main() {
 			break;
 		}
 	} while(response != 4);
-
+	printf("Exiting...\nBye :)\n");
 	return 0;
 }
 
@@ -281,7 +281,7 @@ void print_team2_details(int x, int y) {
 }
 // Display the summary of the match...
 void print_summary(int x, int y) {
-	printf("#################################################################\n");
+	printf("\n#################################################################\n");
 	printf("Highest runs scored by team 1 : %d\n", batsman_t1->max_runs);
 	printf("Maximum fours scored by team 1 : %d\n", batsman_t1->max_fours);
 	printf("Maximum sixes scored by team 1 : %d\n", batsman_t1->max_sixes);
