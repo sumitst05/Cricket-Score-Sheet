@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 // Structs for batsmen and bowlers
 struct batsmen {
   char name[25];
   int runs, balls, tot_runs, tot_balls, ones, twos, threes, fours, sixes;
   int max_sixes, max_runs, max_fours;
-} batsman_t1[6], batsman_t2[6], batsmen;
+} batsman_t1[6], batsman_t2[6];
 
 struct bowlers {
   char name[25];
   int runs_given, wickets, overs;
   int max_wickets;
-} bowler_t1[6], bowler_t2[6], bowlers;
+} bowler_t1[6], bowler_t2[6];
 
 // Function declarations:
 void get_team1_details(int x, int y);
